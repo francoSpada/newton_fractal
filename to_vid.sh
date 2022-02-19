@@ -1,0 +1,2 @@
+#ffmpeg -stream_loop 2 -i animation.gif -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" video.mp4
+ffmpeg -start_number 0 -stream_loop 1 -i img_%03d.png -c:v libx264 -vf fps=25 -pix_fmt yuv420p a.mp4

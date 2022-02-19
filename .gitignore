@@ -1,0 +1,7 @@
+/venv/
+tile.png
+*.lprof*
+.vscode/
+vids
+fotograms*
+fotogramas*
